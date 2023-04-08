@@ -1,6 +1,7 @@
 import './style.css'
 // import './04-homework'
-import './05-dry.ts';
+// import './05-dry.ts';
+import './06-classes-c';
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
