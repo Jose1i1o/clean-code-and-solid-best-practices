@@ -5,9 +5,9 @@
   type Gender = 'M' | 'F';
 
   interface PersonProps {
-    name: string,
-    gender: Gender,
     birthdate: Date,
+    gender: Gender,
+    name: string,
   }
 
 
@@ -17,26 +17,26 @@
     public name: string;
 
     constructor({ name, gender, birthdate }: PersonProps) {
-      this.name = name,
-        this.gender = gender,
-        this.birthdate = birthdate
+      this.birthdate = birthdate,
+      this.gender = gender,
+      this.name = name
     }
   }
 
   interface UserProps {
     email: string,
-    role: string,
     lastAccess: Date
+    role: string,
   }
 
   class LoggedUser {
-    public lastAccess: Date;
     public email: string;
+    public lastAccess: Date;
     public role: string;
 
     constructor({ lastAccess, email, role }: UserProps) {
-      this.lastAccess = lastAccess;
       this.email = email;
+      this.lastAccess = lastAccess;
       this.role = role;
     }
     checkAuthToken() {
@@ -50,8 +50,8 @@
   }
 
   class Settings {
-    public workingDirectory: string;
     public lastOpenFolder: string;
+    public workingDirectory: string;
 
     constructor({ workingDirectory, lastOpenFolder }: SettingsProps) {
       this.lastOpenFolder = lastOpenFolder;
