@@ -4,7 +4,9 @@ import './style.css'
 // import './06-classes-c';
 // import './code-smells/02-low-coupling';
 // import './solid/01-solution-srp'
-import './solid/03-liskov-solution/03-liskov-a'
+// import './solid/03-liskov-solution/03-liskov-a'
+// import './solid/05-dependency-solution/05-dependency-a';
+import './solid/05-second-step-invert-dependency/05-dependency-a'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
