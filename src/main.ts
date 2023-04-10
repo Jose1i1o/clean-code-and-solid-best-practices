@@ -4,7 +4,7 @@ import './style.css'
 // import './06-classes-c';
 // import './code-smells/02-low-coupling';
 // import './solid/01-solution-srp'
-import './solid/02-solution/02-open-close-exercise-a'
+import './solid/03-liskov-solution/03-liskov-a'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
